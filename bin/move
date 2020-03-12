@@ -9,6 +9,13 @@ board = [' ',' ',' ',' ',' ',' ',' ',' ',' ']
 puts display_board(board)
 puts 'Where would you like to go?'
 input = gets.strip
+<<<<<<< HEAD
 idx = input_to_index(input)
 move(board,idx)
 display_board(board)
+=======
+input_to_index(input)
+move(board,input)
+display_board(move)
+puts board
+>>>>>>> 8540704016a6708d6c8ce1f49419c789746fb2fb
